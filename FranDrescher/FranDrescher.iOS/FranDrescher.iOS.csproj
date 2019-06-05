@@ -137,4 +137,7 @@
       <Name>FranDrescher</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\FranBackground.png" />
+  </ItemGroup>
 </Project>

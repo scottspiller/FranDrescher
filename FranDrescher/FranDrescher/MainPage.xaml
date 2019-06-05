@@ -2,12 +2,12 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:FranDrescher"
-             x:Class="FranDrescher.MainPage">
+             x:Class="FranDrescher.MainPage" BackgroundImageSource="FranBackground.png">
 
     <ContentPage.Resources>
     </ContentPage.Resources>
     
-    <ScrollView Padding="10">
+    <ScrollView Padding="10" ba>
         <Grid RowSpacing="10" ColumnSpacing="10">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
