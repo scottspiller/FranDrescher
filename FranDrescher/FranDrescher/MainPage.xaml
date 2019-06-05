@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:FranDrescher"
+             x:Class="FranDrescher.MainPage">
+
+    <ContentPage.Resources>
+        <Style x:Key="headerLabel" TargetType="Label">
+        <Setter Property="Margin" Value="0, 8" />
+        <Setter Property="FontSize" Value="Large" />
+        <Setter Property="TextColor" Value="Blue" />
+    </Style>
+    </ContentPage.Resources>
+    
+    <ScrollView Padding="10">
+        <Grid RowSpacing="10" ColumnSpacing="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <Frame WidthRequest="100"
+                   HeightRequest="100" Grid.Row="0" Grid.Column="0">
+
+                <FlexLayout Direction="Column">
+                    <Label Text="Hey Studdly" 
+                           Style="{StaticResource headerLabel}" />
+                    <Image Source="CircleFranDrescher.png"
+                           WidthRequest="90"
+                           HeightRequest="90">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer
+                                Tapped="OnImageNameTapped"
+                                NumberOfTapsRequired="1" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                </FlexLayout>
+            </Frame>
+
+            <!--<Image  Grid.Row="0" Grid.Column="0" Aspect="Fill" Source="{src:ImageResource Milano.black.jpg}"/>
+
+            <Image  Grid.Row="0" Grid.Column="1" Aspect="Fill" Source="{src:ImageResource Milano.black.jpg}"/>
+
+            <Image  Grid.Row="0" Grid.Column="2" Aspect="Fill" Source="{src:ImageResource Milano.black.jpg}"/>
+
+            <Image  Grid.Row="1" Grid.Column="0" Aspect="Fill" Source="{src:ImageResource Milano.black.jpg}"/>
+
+            <Image  Grid.Row="1" Grid.Column="1" Aspect="Fill" Source="{src:ImageResource Milano.black.jpg}"/>
+
+            <Image  Grid.Row="1" Grid.Column="2" Aspect="Fill" Source="{src:ImageResource Milano.black.jpg}"/>
+
+            <Image  Grid.Row="2" Grid.Column="0" Aspect="Fill" Source="{src:ImageResource Milano.black.jpg}"/>
+
+            <Image  Grid.Row="2" Grid.Column="1" Aspect="Fill" Source="{src:ImageResource Milano.black.jpg}"/>
+
+            <Image  Grid.Row="2" Grid.Column="2" Aspect="Fill" Source="{src:ImageResource Milano.black.jpg}"/>-->
+        </Grid>
+
+    </ScrollView>
+
+</ContentPage>

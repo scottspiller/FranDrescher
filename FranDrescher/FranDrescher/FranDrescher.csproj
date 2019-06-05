@@ -1,0 +1,66 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceAssemblyReference>true</ProduceAssemblyReference>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Audio\CallingFromTheSexHotline.mp3" />
+    <None Remove="Audio\FeelingHorny.mp3" />
+    <None Remove="Audio\Habbuba.mp3" />
+    <None Remove="Audio\HelloThisIsBetty.mp3" />
+    <None Remove="Audio\HeyStuddly.mp3" />
+    <None Remove="Audio\HowBigAreYourGenitals.mp3" />
+    <None Remove="Audio\Laugh1.mp3" />
+    <None Remove="Audio\Laugh2.mp3" />
+    <None Remove="Audio\LikeAHanukkahCandle.mp3" />
+    <None Remove="Audio\MyBodyNeedsRubbing.mp3" />
+    <None Remove="Audio\MyNipplesAreHard.mp3" />
+    <None Remove="Audio\NeedToTalkDirty.mp3" />
+    <None Remove="Audio\NeedToTalkDirty2.mp3" />
+    <None Remove="Audio\OohYeah.mp3" />
+    <None Remove="Audio\StopBeingALimpDick.mp3" />
+    <None Remove="Audio\TouchingYourself.mp3" />
+    <None Remove="Audio\WhatAreYaGay.mp3" />
+    <None Remove="Audio\WhatDoYouWant.mp3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Audio\OohYeah.mp3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Audio\Laugh1.mp3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Audio\CallingFromTheSexHotline.mp3" />
+    <EmbeddedResource Include="Audio\FeelingHorny.mp3" />
+    <EmbeddedResource Include="Audio\Habbuba.mp3" />
+    <EmbeddedResource Include="Audio\HelloThisIsBetty.mp3" />
+    <EmbeddedResource Include="Audio\HeyStuddly.mp3" />
+    <EmbeddedResource Include="Audio\HowBigAreYourGenitals.mp3" />
+    <EmbeddedResource Include="Audio\Laugh2.mp3" />
+    <EmbeddedResource Include="Audio\LikeAHanukkahCandle.mp3" />
+    <EmbeddedResource Include="Audio\MyBodyNeedsRubbing.mp3" />
+    <EmbeddedResource Include="Audio\MyNipplesAreHard.mp3" />
+    <EmbeddedResource Include="Audio\NeedToTalkDirty.mp3" />
+    <EmbeddedResource Include="Audio\NeedToTalkDirty2.mp3" />
+    <EmbeddedResource Include="Audio\StopBeingALimpDick.mp3" />
+    <EmbeddedResource Include="Audio\TouchingYourself.mp3" />
+    <EmbeddedResource Include="Audio\WhatAreYaGay.mp3" />
+    <EmbeddedResource Include="Audio\WhatDoYouWant.mp3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xam.Plugin.SimpleAudioPlayer" Version="1.3.0" />
+    <PackageReference Include="Xamarin.Forms" Version="4.0.0.482894" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.1.0" />
+  </ItemGroup>
+</Project>
