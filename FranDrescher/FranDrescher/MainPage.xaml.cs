@@ -23,20 +23,22 @@ namespace FranDrescher
             InitializeComponent();
             player = CrossSimpleAudioPlayer.CreateSimpleAudioPlayer();
         }
-        async void OnImageNameTapped(object sender, EventArgs args)
+        async void OnFrameTapped(object sender, EventArgs args)
         {
             try
             {
-                await PlayClip();
+                Frame frame = (Frame)sender;
+                var fileName = frame.ClassId;             
+                await PlayClip(fileName);
             }
             catch (Exception ex)
             {
                 throw ex;
             }
         }
-        public async Task PlayClip()
+        public async Task PlayClip(string fileName)
         {
-            var stream = GetStreamFromFile("Audio.HeyStuddly.mp3");
+            var stream = GetStreamFromFile($"Audio.{fileName}.mp3");
             player.Load(stream);
             player.Play();
         }
