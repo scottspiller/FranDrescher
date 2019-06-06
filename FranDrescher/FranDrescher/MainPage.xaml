@@ -2,12 +2,12 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:FranDrescher"
-             x:Class="FranDrescher.MainPage" BackgroundImageSource="FranBackground.png">
+             x:Class="FranDrescher.MainPage">
 
     <ContentPage.Resources>
     </ContentPage.Resources>
     
-    <ScrollView Padding="10" ba>
+    <ScrollView Padding="10">
         <Grid RowSpacing="10" ColumnSpacing="10">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
@@ -221,7 +221,7 @@
             </Frame>
 
             <Frame WidthRequest="100"
-                   HeightRequest="100" Grid.Row="3" Grid.Column="0" ClassId="StopBeingALimpDick">
+                   HeightRequest="100" Grid.Row="3" Grid.Column="1" ClassId="StopBeingALimpDick">
                 <Frame.GestureRecognizers>
                     <TapGestureRecognizer
                                 Tapped="OnFrameTapped"
@@ -240,7 +240,7 @@
 
 
             <Frame WidthRequest="100"
-                   HeightRequest="100" Grid.Row="3" Grid.Column="1" ClassId="TouchingYourself">
+                   HeightRequest="100" Grid.Row="3" Grid.Column="2" ClassId="TouchingYourself">
                 <Frame.GestureRecognizers>
                     <TapGestureRecognizer
                                 Tapped="OnFrameTapped"
@@ -258,7 +258,7 @@
             </Frame>
 
             <Frame WidthRequest="100"
-                   HeightRequest="100" Grid.Row="3" Grid.Column="2" ClassId="WhatAreYaGay">
+                   HeightRequest="100" Grid.Row="4" Grid.Column="0" ClassId="WhatAreYaGay">
                 <Frame.GestureRecognizers>
                     <TapGestureRecognizer
                                 Tapped="OnFrameTapped"
@@ -276,7 +276,7 @@
             </Frame>
 
             <Frame WidthRequest="100"
-                   HeightRequest="100" Grid.Row="4" Grid.Column="0" ClassId="WhatDoYouWant">
+                   HeightRequest="100" Grid.Row="4" Grid.Column="1" ClassId="WhatDoYouWant">
                 <Frame.GestureRecognizers>
                     <TapGestureRecognizer
                                 Tapped="OnFrameTapped"

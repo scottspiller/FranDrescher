@@ -113,7 +113,9 @@
     <AndroidResource Include="Resources\drawable\FranDrescher.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\FranBackground.png" />
+    <EmbeddedResource Include="Resources\drawable\FranBackground.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
