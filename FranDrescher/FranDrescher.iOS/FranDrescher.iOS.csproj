@@ -138,6 +138,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\FranBackground.png" />
+    <EmbeddedResource Include="Resources\FranBackground.png" />
   </ItemGroup>
 </Project>

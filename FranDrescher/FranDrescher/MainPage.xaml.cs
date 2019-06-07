@@ -22,6 +22,8 @@ namespace FranDrescher
         {
             InitializeComponent();
             player = CrossSimpleAudioPlayer.CreateSimpleAudioPlayer();
+            //BackgroundImageSource = ImageSource.FromResource("FranBackground.png");
+            
         }
         async void OnFrameTapped(object sender, EventArgs args)
         {
