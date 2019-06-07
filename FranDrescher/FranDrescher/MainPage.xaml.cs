@@ -29,8 +29,17 @@ namespace FranDrescher
             try
             {
                 Frame frame = (Frame)sender;
+
+
                 var fileName = frame.ClassId;             
                 await PlayClip(fileName);
+                //await frame.RotateTo(360, 2000);
+                await Task.WhenAny<bool>
+                (
+                  frame.RotateTo(360, 1000),
+                  frame.ScaleTo(2, 1000)
+                );
+                await frame.ScaleTo(1, 500);
             }
             catch (Exception ex)
             {
@@ -46,7 +55,7 @@ namespace FranDrescher
             
             var stream = GetStreamFromFile($"Audio.{fileName}.mp3");
             player.Load(stream);
-            player.Play();          
+            player.Play();     
         }
         Stream GetStreamFromFile(string filename)
         {
