@@ -39,9 +39,14 @@ namespace FranDrescher
         }
         public async Task PlayClip(string fileName)
         {
+            if (player.IsPlaying)
+            {
+                player.Stop();
+            }
+            
             var stream = GetStreamFromFile($"Audio.{fileName}.mp3");
             player.Load(stream);
-            player.Play();
+            player.Play();          
         }
         Stream GetStreamFromFile(string filename)
         {
