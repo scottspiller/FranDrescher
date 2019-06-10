@@ -46,12 +46,10 @@
     <EmbeddedResource Include="Audio\HelloThisIsBetty.mp3" />
     <EmbeddedResource Include="Audio\HeyStuddly.mp3" />
     <EmbeddedResource Include="Audio\HowBigAreYourGenitals.mp3" />
-    <EmbeddedResource Include="Audio\Laugh2.mp3" />
     <EmbeddedResource Include="Audio\LikeAHanukkahCandle.mp3" />
     <EmbeddedResource Include="Audio\MyBodyNeedsRubbing.mp3" />
     <EmbeddedResource Include="Audio\MyNipplesAreHard.mp3" />
     <EmbeddedResource Include="Audio\NeedToTalkDirty.mp3" />
-    <EmbeddedResource Include="Audio\NeedToTalkDirty2.mp3" />
     <EmbeddedResource Include="Audio\StopBeingALimpDick.mp3" />
     <EmbeddedResource Include="Audio\TouchingYourself.mp3" />
     <EmbeddedResource Include="Audio\WhatAreYaGay.mp3" />

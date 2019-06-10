@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:FranDrescher"
@@ -42,7 +42,6 @@
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
 
             <Frame Grid.Row="0" Grid.Column="0" ClassId="HeyStuddly">
@@ -56,20 +55,8 @@
                     <Image Source="CircleFranDrescher.png"/>
                 </FlexLayout>
             </Frame>
-
-            <Frame Grid.Row="0" Grid.Column="1" ClassId="FeelingHorny">
-                <Frame.GestureRecognizers>
-                    <TapGestureRecognizer
-                                Tapped="OnFrameTapped"
-                                NumberOfTapsRequired="1" />
-                </Frame.GestureRecognizers>
-                <FlexLayout>
-                    <Label Text="Horney"/>
-                    <Image Source="CircleFranDrescher.png"/>
-                </FlexLayout>
-            </Frame>
-
-            <Frame Grid.Row="0" Grid.Column="2" ClassId="Habbuba">
+            
+            <Frame Grid.Row="0" Grid.Column="1" ClassId="WhatAreYaGay">
                 <Frame.GestureRecognizers>
                     <TapGestureRecognizer
                                 Tapped="OnFrameTapped"
@@ -77,116 +64,12 @@
                 </Frame.GestureRecognizers>
 
                 <FlexLayout>
-                    <Label Text="Habbuba"/>
-                    <Image Source="CircleFranDrescher.png"/>
+                    <Label Text="Gay"/>
+                    <Image Source="CircleFranDrescher.png" />
                 </FlexLayout>
             </Frame>
-
-            <Frame Grid.Row="1" Grid.Column="0" ClassId="HowBigAreYourGenitals">
-                <Frame.GestureRecognizers>
-                    <TapGestureRecognizer
-                                Tapped="OnFrameTapped"
-                                NumberOfTapsRequired="1" />
-                </Frame.GestureRecognizers>
-
-                <FlexLayout>
-                    <Label Text="Genitals" />
-                    <Image Source="CircleFranDrescher.png"/>
-                </FlexLayout>
-            </Frame>
-
-            <Frame Grid.Row="1" Grid.Column="1" ClassId="Laugh1">
-                <Frame.GestureRecognizers>
-                    <TapGestureRecognizer
-                                Tapped="OnFrameTapped"
-                                NumberOfTapsRequired="1" />
-                </Frame.GestureRecognizers>
-
-                <FlexLayout>
-                    <Label Text="Laugh #1" />
-                    <Image Source="CircleFranDrescher.png"/>
-                </FlexLayout>
-            </Frame>
-
-            <Frame Grid.Row="1" Grid.Column="2" ClassId="Laugh2">
-                <Frame.GestureRecognizers>
-                    <TapGestureRecognizer
-                                Tapped="OnFrameTapped"
-                                NumberOfTapsRequired="1" />
-                </Frame.GestureRecognizers>
-
-                <FlexLayout>
-                    <Label Text="Laugh #2"/>
-                    <Image Source="CircleFranDrescher.png"/>
-                </FlexLayout>
-            </Frame>
-
-            <Frame Grid.Row="2" Grid.Column="0" ClassId="LikeAHanukkahCandle">
-                <Frame.GestureRecognizers>
-                    <TapGestureRecognizer
-                                Tapped="OnFrameTapped"
-                                NumberOfTapsRequired="1" />
-                </Frame.GestureRecognizers>
-
-                <FlexLayout>
-                    <Label Text="Candle"/>
-                    <Image Source="CircleFranDrescher.png"/>
-                </FlexLayout>
-            </Frame>
-
-            <Frame Grid.Row="2" Grid.Column="1" ClassId="MyBodyNeedsRubbing">
-                <Frame.GestureRecognizers>
-                    <TapGestureRecognizer
-                                Tapped="OnFrameTapped"
-                                NumberOfTapsRequired="1" />
-                </Frame.GestureRecognizers>
-
-                <FlexLayout>
-                    <Label Text="Rubbing"/>
-                    <Image Source="CircleFranDrescher.png"/>
-                </FlexLayout>
-            </Frame>
-
-            <Frame Grid.Row="2" Grid.Column="2" ClassId="MyNipplesAreHard">
-                <Frame.GestureRecognizers>
-                    <TapGestureRecognizer
-                                Tapped="OnFrameTapped"
-                                NumberOfTapsRequired="1" />
-                </Frame.GestureRecognizers>
-
-                <FlexLayout>
-                    <Label Text="Nipples"/>
-                    <Image Source="CircleFranDrescher.png"/>
-                </FlexLayout>
-            </Frame>
-
-            <Frame Grid.Row="3" Grid.Column="0" ClassId="NeedToTalkDirty">
-                <Frame.GestureRecognizers>
-                    <TapGestureRecognizer
-                                Tapped="OnFrameTapped"
-                                NumberOfTapsRequired="1" />
-                </Frame.GestureRecognizers>
-
-                <FlexLayout>
-                    <Label Text="Dirty #1" />
-                    <Image Source="CircleFranDrescher.png"/>
-                </FlexLayout>
-            </Frame>
-
-            <Frame Grid.Row="3" Grid.Column="1" ClassId="NeedToTalkDirty2">
-                <Frame.GestureRecognizers>
-                    <TapGestureRecognizer
-                                Tapped="OnFrameTapped"
-                                NumberOfTapsRequired="1" />
-                </Frame.GestureRecognizers>
-
-                <FlexLayout>
-                    <Label Text="Dirty #2" />
-                    <Image Source="CircleFranDrescher.png"/>
-                </FlexLayout>
-            </Frame>
-
-            <Frame Grid.Row="3" Grid.Column="2" ClassId="OohYeah">
+            
+            <Frame Grid.Row="0" Grid.Column="2" ClassId="OohYeah">
                 <Frame.GestureRecognizers>
                     <TapGestureRecognizer
                                 Tapped="OnFrameTapped"
@@ -199,7 +82,32 @@
                 </FlexLayout>
             </Frame>
 
-            <Frame Grid.Row="4" Grid.Column="0" ClassId="StopBeingALimpDick">
+            <Frame Grid.Row="1" Grid.Column="0" ClassId="FeelingHorny">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer
+                                Tapped="OnFrameTapped"
+                                NumberOfTapsRequired="1" />
+                </Frame.GestureRecognizers>
+                <FlexLayout>
+                    <Label Text="Horney"/>
+                    <Image Source="CircleFranDrescher.png"/>
+                </FlexLayout>
+            </Frame>
+            
+            <Frame Grid.Row="1" Grid.Column="1" ClassId="WhatDoYouWant">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer
+                                Tapped="OnFrameTapped"
+                                NumberOfTapsRequired="1" />
+                </Frame.GestureRecognizers>
+
+                <FlexLayout>
+                    <Label Text="You Want" />
+                    <Image Source="CircleFranDrescher.png"/>
+                </FlexLayout>
+            </Frame>
+
+            <Frame Grid.Row="1" Grid.Column="2" ClassId="StopBeingALimpDick">
                 <Frame.GestureRecognizers>
                     <TapGestureRecognizer
                                 Tapped="OnFrameTapped"
@@ -212,8 +120,72 @@
                 </FlexLayout>
             </Frame>
 
+            <Frame Grid.Row="2" Grid.Column="0" ClassId="HowBigAreYourGenitals">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer
+                                Tapped="OnFrameTapped"
+                                NumberOfTapsRequired="1" />
+                </Frame.GestureRecognizers>
 
-            <Frame Grid.Row="4" Grid.Column="1" ClassId="TouchingYourself">
+                <FlexLayout>
+                    <Label Text="Genitals" />
+                    <Image Source="CircleFranDrescher.png"/>
+                </FlexLayout>
+            </Frame>
+            
+            <Frame Grid.Row="2" Grid.Column="1" ClassId="LikeAHanukkahCandle">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer
+                                Tapped="OnFrameTapped"
+                                NumberOfTapsRequired="1" />
+                </Frame.GestureRecognizers>
+
+                <FlexLayout>
+                    <Label Text="Candle"/>
+                    <Image Source="CircleFranDrescher.png"/>
+                </FlexLayout>
+            </Frame>
+
+            <Frame Grid.Row="2" Grid.Column="2" ClassId="MyBodyNeedsRubbing">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer
+                                Tapped="OnFrameTapped"
+                                NumberOfTapsRequired="1" />
+                </Frame.GestureRecognizers>
+
+                <FlexLayout>
+                    <Label Text="Rubbing"/>
+                    <Image Source="CircleFranDrescher.png"/>
+                </FlexLayout>
+            </Frame>
+
+            <Frame Grid.Row="3" Grid.Column="0" ClassId="MyNipplesAreHard">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer
+                                Tapped="OnFrameTapped"
+                                NumberOfTapsRequired="1" />
+                </Frame.GestureRecognizers>
+
+                <FlexLayout>
+                    <Label Text="Nipples"/>
+                    <Image Source="CircleFranDrescher.png"/>
+                </FlexLayout>
+            </Frame>
+
+            <Frame Grid.Row="3" Grid.Column="1" ClassId="NeedToTalkDirty">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer
+                                Tapped="OnFrameTapped"
+                                NumberOfTapsRequired="1" />
+                </Frame.GestureRecognizers>
+
+                <FlexLayout>
+                    <Label Text="Dirty #1" />
+                    <Image Source="CircleFranDrescher.png"/>
+                </FlexLayout>
+            </Frame>
+
+            <Frame Grid.Row="3" Grid.Column="2" ClassId="TouchingYourself">
                 <Frame.GestureRecognizers>
                     <TapGestureRecognizer
                                 Tapped="OnFrameTapped"
@@ -225,8 +197,8 @@
                     <Image Source="CircleFranDrescher.png" />
                 </FlexLayout>
             </Frame>
-
-            <Frame Grid.Row="4" Grid.Column="2" ClassId="WhatAreYaGay">
+            
+            <Frame Grid.Row="4" Grid.Column="0" ClassId="Habbuba">
                 <Frame.GestureRecognizers>
                     <TapGestureRecognizer
                                 Tapped="OnFrameTapped"
@@ -234,24 +206,24 @@
                 </Frame.GestureRecognizers>
 
                 <FlexLayout>
-                    <Label Text="Gay"/>
-                    <Image Source="CircleFranDrescher.png" />
-                </FlexLayout>
-            </Frame>
-
-            <Frame WidthRequest="100"
-                   HeightRequest="100" Grid.Row="5" Grid.Column="0" ClassId="WhatDoYouWant">
-                <Frame.GestureRecognizers>
-                    <TapGestureRecognizer
-                                Tapped="OnFrameTapped"
-                                NumberOfTapsRequired="1" />
-                </Frame.GestureRecognizers>
-
-                <FlexLayout>
-                    <Label Text="You Want" />
+                    <Label Text="Habbuba"/>
                     <Image Source="CircleFranDrescher.png"/>
                 </FlexLayout>
             </Frame>
+            
+            <Frame Grid.Row="4" Grid.Column="1" ClassId="Laugh1">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer
+                                Tapped="OnFrameTapped"
+                                NumberOfTapsRequired="1" />
+                </Frame.GestureRecognizers>
+
+                <FlexLayout>
+                    <Label Text="Laugh #1" />
+                    <Image Source="CircleFranDrescher.png"/>
+                </FlexLayout>
+            </Frame>
+            
         </Grid>
 
     </ScrollView>

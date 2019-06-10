@@ -32,21 +32,20 @@ namespace FranDrescher
 
 
                 var fileName = frame.ClassId;             
-                await PlayClip(fileName);
+                PlayClip(fileName);
                 //await frame.RotateTo(360, 2000);
                 await Task.WhenAny<bool>
                 (
-                  frame.RotateTo(360, 1000),
-                  frame.ScaleTo(2, 1000)
+                  frame.ScaleTo(2, 300)
                 );
-                await frame.ScaleTo(1, 500);
+                await frame.ScaleTo(1, 300);
             }
             catch (Exception ex)
             {
                 throw ex;
             }
         }
-        public async Task PlayClip(string fileName)
+        public void PlayClip(string fileName)
         {
             if (player.IsPlaying)
             {
